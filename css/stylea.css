@@ -1,0 +1,253 @@
+:root {
+    /* Colors */
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;  
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text:#434455;
+    --subtitle-text: #8E8F99;
+    --accent:#ECF1F4;
+    --light:#F4F4FD;
+    --modal-overlay:rgba(46, 47, 66, 0.4);
+    --hero-background:rgba(46, 47, 66, 0.7);
+    --white-background:#ffffff;
+    --modal-background:#FCFCFC;
+/* fonts */
+--primary-font: 'Roboto', sans-serif;
+}
+
+/* basic style */
+body {
+    font-family: var(--primary-font);
+    color: var(--text, #434455);
+    }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--dark, #2E2F42);
+    margin: 0;
+  }
+  p {
+    margin: 0; 
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  ul {
+    list-style: none;
+    /* padding: 0;
+    margin: 0; */
+  }
+  button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
+  /* img {
+    display: block; } */
+  
+  /* header */
+ 
+  .header {
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark, #2E2F42);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-color {
+color: var(--primary-brand, #4D5AE5);
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+line-height: 1.67;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.navigator {
+}
+.menu {
+}
+.list {
+}
+.menu-item {
+}
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark, #2E2F42);
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--pressed-state, #404BBF);
+}
+.contact {
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--text, #434455);
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--pressed-state, #404BBF);
+}
+/* HERO */
+.hero {
+    background-color: var(--dark, #2E2F42);
+}
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-background, #FFF);
+    text-align: center;
+}
+.hero-button {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white-background, #FFF);
+border-radius: 4px;
+background-color: var(--primary-brand, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:hover,
+.hero-button:focus{
+background-color: var(--pressed-state, #404BBF);
+}
+/* Advantages */
+.advantages {
+}
+.advantages-title {
+display: none;
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.subtitle {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.item-desc {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Our works */
+.work {
+}
+.work-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.12;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.work-list {
+}
+.work-item {
+}
+.work-pic {
+}
+
+/* Our team */
+.team {
+}
+.team-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.12;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-pic {
+}
+.team-subtitle {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.subtitle-desc {
+text-align: center;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* footer */
+.footer-text {
+color: var(--white-background, #FFF);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* portfolio */
+.main-title {
+    display: none;
+}
+.menu-list {
+}
+.menu-btn-item {
+    color: var(--primary-brand, #4D5AE5);
+    background-color: var(--light, #F4F4FD);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.menu-btn-item:hover,
+.menu-btn-item:focus {
+color: var(--white-background, #FFF);
+background-color:  var(--pressed-state, #404BBF);
+}
+/* gallery */
+.gallety-list {
+}
+.gallety-item {
+}
+.gallery-img {
+}
+.gallery-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.gallery-desc {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
