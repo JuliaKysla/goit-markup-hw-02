@@ -81,7 +81,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-color-white {
-  color: var(--white-background, #ffffff)
+  color: var(--light, #F4F4FD)
 }
 .navigator {
 }
