@@ -78,10 +78,12 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .navigator {
 }
 .menu {
 }
+
 .list {
 list-style: none;
 }
@@ -164,8 +166,8 @@ letter-spacing: 0.02em;
 }
 
 /* Our works */
-.work {
-}
+/* .work {
+} */
 .work-title {
 text-align: center;
 font-size: 36px;
@@ -174,12 +176,12 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.work-list {
+/* .work-list {
 }
 .work-item {
 }
 .work-pic {
-}
+} */
 
 /* Our team */
 .team {
@@ -193,13 +195,13 @@ line-height: 1.12;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.team-list {
-}
+/* .team-list {
+} */
 .team-item {
   background-color: var(--white-background, #ffffff);
 }
-.team-pic {
-}
+/* .team-pic {
+} */
 .team-subtitle {
 text-align: center;
 font-size: 20px;
@@ -224,12 +226,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/* portfolio */
-.main-title {
-    /* display: none; */
-}
-.menu-list {
-}
+ /* portfolio */
+/* .main-title {
+    display: none;
+}  */
+/* .menu-list {
+} */
 .menu-btn-item {
     color: var(--primary-brand, #4D5AE5);
     background-color: var(--light, #F4F4FD);
@@ -245,12 +247,12 @@ color: var(--white-background, #FFF);
 background-color:  var(--pressed-state, #404BBF);
 }
 /* gallery */
-.gallety-list {
+/* .gallety-list {
 }
 .gallety-item {
 }
 .gallery-img {
-}
+} */
 .gallery-title {
 font-size: 20px;
 font-weight: 500;
